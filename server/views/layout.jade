@@ -1,0 +1,52 @@
+doctype
+html
+  head
+    link(rel="stylesheet" href="/vendor/bootstrap/dist/css/bootstrap.min.css")
+    link(rel="stylesheet", href="/vendor/toastr/toastr.css")
+    link(rel="stylesheet" href="/site.css")
+  body(ng-app="main")
+    nav.navbar.navbar-default
+      .container-fluid
+        .navbar-header
+          button.navbar-toggle(type="button" data-toggle="collapse" data-target=".navbar-collapse")
+            span.icon-bar
+            span.icon-bar
+            span.icon-bar 
+          a.navbar-brand(href="#") Software & Services
+        #bs.collapse.navbar-collapse
+          ul.nav.navbar-nav
+            li.active
+              a(href="/") Home
+            li.dropdown
+              a.dropdown-toggle(data-toggle="dropdown" href="/#")
+                | Products
+                b.caret
+                ul.dropdown-menu
+                  li
+                    a(href="/products/tcm") TCM- Tax Collection Manager
+                  li
+                    a(href="/produts/ais") AIS - Assessor Information Systems
+            li.dropdown
+              a.dropdown-toggle(data-toggle="dropdown" href="/#")
+                | Services
+                b.caret
+                ul.dropdown-menu
+                  li
+                    a(href="/services/support") Client Support
+                  li
+                    a(href="/produts/network") Networking Solutions
+                  li
+                    a(href="/produts/web") Website Solutions
+                  li
+                    a(href="/produts/programming") Custom Programming Solutions
+            li
+              a(href="/contact") Contact Us
+                      
+                        
+                         
+    
+    block content
+    
+    footer
+      | something here later
+    include partials/scripts

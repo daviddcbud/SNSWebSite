@@ -1,0 +1,26 @@
+{
+  "name": "SNSWebSite",
+  "version": "0.0.0",
+  "description": "ERROR: No README data found!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "BSD-2-Clause",
+  "devDependencies": {
+    "bower": "~1.3.3"
+  },
+  "dependencies": {
+    "morgan": "~1.1.1",
+    "body-parser": "~1.2.0",
+    "underscore": "~1.6.0",
+    "stylus": "~0.45.1",
+    "jade": "~1.3.1",
+    "mongoose": "~3.8.11",
+    "errorhandler": "~1.0.1",
+    "serve-favicon": "~2.0.0",
+    "express": "~4.3.1"
+  }
+}

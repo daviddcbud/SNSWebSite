@@ -1,0 +1,9 @@
+#news
+                h2 Latest News
+                hr
+                .panel.panel-primary(ng-repeat="newsItem in model.news")
+                    .panel-heading
+                        h3.panel-title {{newsItem.header}}
+                    .panel-body
+                        span(ng-bind-html="newsItem.text")
+                

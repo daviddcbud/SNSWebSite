@@ -1,0 +1,16 @@
+#heading {
+  padding: 10px;
+}
+#news {
+  border-radius: 3px;
+  margin-right: 3px;
+}
+p {
+  text-indent: 30px;
+}
+.infoGroup {
+  display: block;
+}
+.infoGroup .heading {
+  font-weight: bold;
+}
